@@ -1,6 +1,4 @@
-﻿using KiemTra01.modes;
-using KiemTra01.modes;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Drawing;
 using System.Windows.Forms;
@@ -19,7 +17,7 @@ namespace KiemTra01
         }
         private void LoadAvailableProducts()
         {
-            // Giả sử danh sách sản phẩm có sẵn
+            
             var availableProducts = new List<Product>
             {
                 new Product("Sản phẩm A", 1000, 1),
@@ -29,7 +27,7 @@ namespace KiemTra01
 
             foreach (var product in availableProducts)
             {
-                // Thêm sản phẩm vào dataGridView1
+                
                 dataGridView1.Rows.Add(product.Name, product.Price);
             }
         }

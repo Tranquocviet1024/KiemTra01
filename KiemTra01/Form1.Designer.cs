@@ -56,7 +56,7 @@ namespace KiemTra01
             // pictureBox1
             // 
             pictureBox1.BorderStyle = BorderStyle.FixedSingle;
-            pictureBox1.Location = new Point(486, 17);
+            pictureBox1.Location = new Point(55, 179);
             pictureBox1.Margin = new Padding(3, 2, 3, 2);
             pictureBox1.Name = "pictureBox1";
             pictureBox1.Size = new Size(138, 148);
@@ -102,11 +102,11 @@ namespace KiemTra01
             // 
             dataGridViewCart.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             dataGridViewCart.Columns.AddRange(new DataGridViewColumn[] { Column1, Column2, Column3, Column4 });
-            dataGridViewCart.Location = new Point(83, 193);
+            dataGridViewCart.Location = new Point(378, 17);
             dataGridViewCart.Margin = new Padding(3, 2, 3, 2);
             dataGridViewCart.Name = "dataGridViewCart";
             dataGridViewCart.RowHeadersWidth = 51;
-            dataGridViewCart.Size = new Size(541, 142);
+            dataGridViewCart.Size = new Size(511, 142);
             dataGridViewCart.TabIndex = 10;
             dataGridViewCart.CellContentClick += dataGridViewCart_CellContentClick_1;
             // 
@@ -141,7 +141,7 @@ namespace KiemTra01
             // label4
             // 
             label4.AutoSize = true;
-            label4.Location = new Point(645, 247);
+            label4.Location = new Point(378, 212);
             label4.Name = "label4";
             label4.Size = new Size(37, 15);
             label4.TabIndex = 12;
@@ -149,7 +149,7 @@ namespace KiemTra01
             // 
             // lblTongGiaTri
             // 
-            lblTongGiaTri.Location = new Point(697, 239);
+            lblTongGiaTri.Location = new Point(449, 204);
             lblTongGiaTri.Margin = new Padding(3, 2, 3, 2);
             lblTongGiaTri.Name = "lblTongGiaTri";
             lblTongGiaTri.Size = new Size(156, 23);
@@ -160,11 +160,11 @@ namespace KiemTra01
             // 
             dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             dataGridView1.Columns.AddRange(new DataGridViewColumn[] { txtName, txtGia, txtSoluong });
-            dataGridView1.Location = new Point(83, 17);
+            dataGridView1.Location = new Point(37, 17);
             dataGridView1.Margin = new Padding(3, 2, 3, 2);
             dataGridView1.Name = "dataGridView1";
             dataGridView1.RowHeadersWidth = 51;
-            dataGridView1.Size = new Size(397, 148);
+            dataGridView1.Size = new Size(309, 148);
             dataGridView1.TabIndex = 13;
             dataGridView1.CellContentClick += dataGridView1_CellContentClick_1;
             // 

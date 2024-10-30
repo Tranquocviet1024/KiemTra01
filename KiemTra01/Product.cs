@@ -1,4 +1,4 @@
-﻿namespace KiemTra01.modes
+﻿namespace KiemTra01
 {
     public class Product
     {
